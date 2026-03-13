@@ -57,7 +57,8 @@ def query_ais_vessels(conn: psycopg2.extensions.connection) -> list[dict]:
             last_longitude,
             last_seen_at,
             last_direction,
-            pending_zone
+            pending_zone,
+            last_heading
         FROM maritime_passage_live_state
         WHERE last_latitude IS NOT NULL
           AND last_longitude IS NOT NULL
@@ -78,6 +79,7 @@ def query_ais_vessels(conn: psycopg2.extensions.connection) -> list[dict]:
             "date": row[5].strftime("%Y-%m-%d") if row[5] else None,
             "direction": row[6],
             "zone": row[7],
+            "heading": float(row[8]) if row[8] is not None else None,
         }
         for row in rows
     ]
@@ -221,7 +223,7 @@ def merge_timeline(gfw_timeline: dict | None, ais_vessels: list[dict]) -> dict:
                 vid,
                 v["lat"],
                 v["lng"],
-                None,  # bearing (no consecutive positions to compute from)
+                v.get("heading"),  # bearing from AIS TrueHeading/COG
                 v.get("direction"),
                 None,  # transit
                 v.get("zone"),

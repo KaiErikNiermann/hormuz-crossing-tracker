@@ -73,6 +73,7 @@ CREATE TABLE IF NOT EXISTS maritime_passage_live_state (
     last_latitude DOUBLE PRECISION,
     last_longitude DOUBLE PRECISION,
     last_direction VARCHAR(32),
+    last_heading DOUBLE PRECISION,
     last_event_at TIMESTAMPTZ,
     PRIMARY KEY (passage, mmsi)
 );
@@ -164,6 +165,7 @@ class VesselState:
     last_latitude: float | None
     last_longitude: float | None
     last_direction: str | None
+    last_heading: float | None
     last_event_at: datetime | None
 
 
@@ -176,6 +178,7 @@ class PositionUpdate:
     latitude: float
     longitude: float
     ship_name: str | None
+    heading: float | None
 
 
 @dataclass(frozen=True)
@@ -414,12 +417,35 @@ def extract_position_update(ais_message: dict[str, Any]) -> PositionUpdate | Non
     ship_name = normalize_ship_name(
         metadata.get("ShipName") or metadata.get("ship_name"),
     )
+
+    # Extract heading: prefer TrueHeading, fall back to COG
+    # AIS uses 511 for "not available" on TrueHeading, 360.0 for COG
+    heading: float | None = None
+    raw_heading = body.get("TrueHeading")
+    if raw_heading is not None:
+        try:
+            h = float(raw_heading)
+            if 0 <= h < 360:
+                heading = h
+        except (TypeError, ValueError):
+            pass
+    if heading is None:
+        raw_cog = body.get("Cog")
+        if raw_cog is not None:
+            try:
+                c = float(raw_cog)
+                if 0 <= c < 360:
+                    heading = c
+            except (TypeError, ValueError):
+                pass
+
     return PositionUpdate(
         timestamp=timestamp,
         mmsi=mmsi,
         latitude=latitude,
         longitude=longitude,
         ship_name=ship_name,
+        heading=heading,
     )
 
 
@@ -500,7 +526,8 @@ class PassageTracker:
                 last_latitude=row[8],
                 last_longitude=row[9],
                 last_direction=row[10],
-                last_event_at=row[11],
+                last_heading=row[11],
+                last_event_at=row[12],
             )
 
             if now - state.last_seen_at > self.settings.state_ttl:
@@ -568,6 +595,7 @@ class PassageTracker:
                     last_latitude=update.latitude,
                     last_longitude=update.longitude,
                     last_direction=None,
+                    last_heading=update.heading,
                     last_event_at=None,
                 )
                 self.states[key] = state
@@ -584,6 +612,8 @@ class PassageTracker:
             state.last_seen_at = update.timestamp
             state.last_latitude = update.latitude
             state.last_longitude = update.longitude
+            if update.heading is not None:
+                state.last_heading = update.heading
 
             zone = passage.classify_zone(update.latitude, update.longitude)
             if zone is None:
@@ -669,6 +699,7 @@ def load_persisted_states(
             last_latitude,
             last_longitude,
             last_direction,
+            last_heading,
             last_event_at
         FROM maritime_passage_live_state
         """
@@ -721,9 +752,10 @@ def upsert_state(
                     last_latitude,
                     last_longitude,
                     last_direction,
+                    last_heading,
                     last_event_at
                 )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             ON CONFLICT (passage, mmsi)
             DO UPDATE SET
                 ship_name = EXCLUDED.ship_name,
@@ -735,6 +767,7 @@ def upsert_state(
                 last_latitude = EXCLUDED.last_latitude,
                 last_longitude = EXCLUDED.last_longitude,
                 last_direction = EXCLUDED.last_direction,
+                last_heading = EXCLUDED.last_heading,
                 last_event_at = EXCLUDED.last_event_at
             """,
             (
@@ -749,6 +782,7 @@ def upsert_state(
                 state.last_latitude,
                 state.last_longitude,
                 state.last_direction,
+                state.last_heading,
                 state.last_event_at,
             ),
         )
