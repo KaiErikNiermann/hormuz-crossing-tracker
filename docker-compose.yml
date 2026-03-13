@@ -1,0 +1,44 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: hormuz-postgres
+    environment:
+      POSTGRES_USER: hormuz
+      POSTGRES_PASSWORD: hormuz
+      POSTGRES_DB: hormuz
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hormuz -d hormuz"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    container_name: hormuz-worker
+    restart: unless-stopped
+    environment:
+      HORMUZ_DB_HOST: postgres
+      HORMUZ_DB_PORT: 5432
+      HORMUZ_DB_NAME: hormuz
+      HORMUZ_DB_USER: hormuz
+      HORMUZ_DB_PASSWORD: hormuz
+      PERSISTENT_TRACKERS: maritime-passages-live,gfw-periodic-fetch
+      PERSISTENT_RESTART_DELAY_SECONDS: 5
+      GFW_FETCH_INTERVAL_HOURS: 120
+    env_file:
+      - .env
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./site/data:/app/site/data
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
