@@ -1,7 +1,14 @@
 node_modules/
 .env
-site/data/
 __pycache__/
 *.pyc
 dist/
 .cache/
+logs/
+
+# Site data — ignore raw/intermediate files, track the timeline outputs
+site/data/*
+!site/data/.gitkeep
+!site/data/gfw_timeline.json
+!site/data/vessels_timeline.json
+!site/data/vessels.json

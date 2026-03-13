@@ -435,6 +435,65 @@ def extract_vessel_timeline(presence_data: dict) -> dict:
     }
 
 
+def merge_timeline_data(existing_path: Path, new_timeline: dict) -> dict:
+    """Merge new timeline data into an existing accumulated timeline.
+
+    - Old dates are preserved as-is
+    - Overlapping dates are replaced with new data (may have late-arriving vessels)
+    - New dates are added
+    - Vessel metadata is merged (new entries win for conflicts)
+    """
+    if not existing_path.exists():
+        LOGGER.info("No existing timeline — starting fresh")
+        return new_timeline
+
+    try:
+        with open(existing_path, encoding="utf-8") as f:
+            existing = json.load(f)
+    except (json.JSONDecodeError, OSError) as e:
+        LOGGER.warning("Could not read existing timeline (%s) — starting fresh", e)
+        return new_timeline
+
+    old_vessels: dict = existing.get("vessels", {})
+    old_positions: dict = existing.get("positions", {})
+    old_stats: dict = existing.get("daily_stats", {})
+
+    new_vessels: dict = new_timeline.get("vessels", {})
+    new_positions: dict = new_timeline.get("positions", {})
+    new_stats: dict = new_timeline.get("daily_stats", {})
+
+    # Merge vessels: new metadata wins for same vesselId
+    merged_vessels = {**old_vessels, **new_vessels}
+
+    # Merge positions: new data replaces overlapping dates, old dates kept
+    merged_positions = {**old_positions, **new_positions}
+
+    # Merge daily stats: same logic
+    merged_stats = {**old_stats, **new_stats}
+
+    # Build sorted date list
+    merged_dates = sorted(merged_positions.keys())
+
+    old_date_count = len(old_positions)
+    new_date_count = len(new_positions)
+    overlap = len(set(old_positions) & set(new_positions))
+    LOGGER.info(
+        "Timeline merge: %d old dates + %d new dates (%d overlap) = %d total dates, %d vessels",
+        old_date_count,
+        new_date_count,
+        overlap,
+        len(merged_dates),
+        len(merged_vessels),
+    )
+
+    return {
+        "dates": merged_dates,
+        "vessels": merged_vessels,
+        "positions": merged_positions,
+        "daily_stats": merged_stats,
+    }
+
+
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
@@ -513,15 +572,20 @@ def main() -> None:
         json.dump(snapshot, f, indent=2)
     LOGGER.info("Updated site data at %s", site_path)
 
-    # Build and write timeline data
+    # Build and write timeline data (accumulating over time)
     if presence:
         LOGGER.info("Building vessel timeline with direction data...")
-        timeline = extract_vessel_timeline(presence)
-        timeline["generated_at"] = datetime.now(UTC).isoformat()
-        timeline["source"] = "Global Fishing Watch"
-        timeline["date_range"] = {"start": start_date, "end": end_date}
+        new_timeline = extract_vessel_timeline(presence)
 
         timeline_path = OUTPUT_DIR / "gfw_timeline.json"
+        timeline = merge_timeline_data(timeline_path, new_timeline)
+        timeline["generated_at"] = datetime.now(UTC).isoformat()
+        timeline["source"] = "Global Fishing Watch"
+        # date_range spans the full accumulated history
+        all_dates = timeline.get("dates", [])
+        if all_dates:
+            timeline["date_range"] = {"start": all_dates[0], "end": all_dates[-1]}
+
         with open(timeline_path, "w", encoding="utf-8") as f:
             json.dump(timeline, f, separators=(",", ":"))
         size_mb = timeline_path.stat().st_size / 1024 / 1024

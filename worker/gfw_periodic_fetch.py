@@ -39,6 +39,20 @@ def main() -> None:
         except Exception:
             LOGGER.exception("GFW fetch failed — will retry next cycle")
 
+        # Merge GFW + live AIS into the final vessels_timeline.json
+        LOGGER.info("Running export merge (GFW + AIS)...")
+        try:
+            result = subprocess.run(
+                [sys.executable, "-m", "scripts.export_snapshot"],
+                check=True,
+                capture_output=False,
+            )
+            LOGGER.info("Export merge completed (exit=%d)", result.returncode)
+        except subprocess.CalledProcessError as e:
+            LOGGER.error("Export merge failed (exit=%d)", e.returncode)
+        except Exception:
+            LOGGER.exception("Export merge failed")
+
         LOGGER.info("Sleeping %d hours until next fetch", interval_hours)
         time.sleep(interval_seconds)
 
