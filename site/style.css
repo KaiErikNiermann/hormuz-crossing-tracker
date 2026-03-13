@@ -296,17 +296,21 @@ h1 {
   color: var(--muted);
 }
 
-#attribution {
+#attribution,
+#attribution p,
+#attribution a {
   font-size: 10px;
   color: var(--muted);
-  border-top: 1px solid var(--border);
-  padding-top: 10px;
-  margin-top: 4px;
   line-height: 1.4;
 }
 
+#attribution {
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+  margin-top: 4px;
+}
+
 #attribution a {
-  color: var(--muted);
   text-decoration: underline;
   text-underline-offset: 2px;
 }

@@ -30,7 +30,7 @@
   ));
 
   // src/app.ts
-  var BUILD_VERSION = true ? "mmopgzvo" : "";
+  var BUILD_VERSION = true ? "mmoptown" : "";
   function dataUrl(path) {
     return BUILD_VERSION ? `${path}?v=${BUILD_VERSION}` : path;
   }
