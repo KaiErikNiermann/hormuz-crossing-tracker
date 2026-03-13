@@ -30,7 +30,7 @@
   ));
 
   // src/app.ts
-  var BUILD_VERSION = true ? "mmoptown" : "";
+  var BUILD_VERSION = true ? "mmozlq5s" : "";
   function dataUrl(path) {
     return BUILD_VERSION ? `${path}?v=${BUILD_VERSION}` : path;
   }
@@ -188,7 +188,7 @@
       addGeofenceLayers();
       addTSSLayers();
       loadVesselData();
-      checkLiveStatus();
+      startHeartbeat();
     });
   }
   function addTSSLayers() {
@@ -743,6 +743,7 @@
   };
   var VESSEL_TYPE_KEYS = ["Cargo", "Tanker", "Fishing", "Passenger", "Other"];
   var chartTooltipEl = null;
+  var chartTooltipAbort = null;
   function getChartTooltip() {
     if (!chartTooltipEl) {
       chartTooltipEl = document.createElement("div");
@@ -752,6 +753,9 @@
     return chartTooltipEl;
   }
   function attachChartTooltip(chart, rows, data) {
+    if (chartTooltipAbort) chartTooltipAbort.abort();
+    chartTooltipAbort = new AbortController();
+    const { signal } = chartTooltipAbort;
     const svg = chart.tagName === "svg" ? chart : chart.querySelector("svg");
     if (!svg) return;
     const tooltip = getChartTooltip();
@@ -820,10 +824,10 @@
         tooltip.style.left = `${tipX}px`;
       }
       tooltip.style.top = `${Math.max(4, tipY - tooltip.offsetHeight / 2)}px`;
-    });
+    }, { signal });
     svg.addEventListener("pointerleave", () => {
       tooltip.classList.add("hidden");
-    });
+    }, { signal });
   }
   function renderChart(data) {
     if (!Plot) return;
@@ -957,7 +961,12 @@
     }).catch(() => {
       document.getElementById("live-badge").classList.add("hidden");
     });
-    setInterval(() => checkLiveStatus(), 3e4);
+  }
+  var heartbeatTimer = null;
+  function startHeartbeat() {
+    if (heartbeatTimer) return;
+    checkLiveStatus();
+    heartbeatTimer = setInterval(checkLiveStatus, 3e4);
   }
   function toggleTheme() {
     const theme = currentTheme === "light" ? "dark" : "light";

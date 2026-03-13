@@ -276,7 +276,7 @@ function initMap(): void {
     addGeofenceLayers();
     addTSSLayers();
     loadVesselData();
-    checkLiveStatus();
+    startHeartbeat();
   });
 }
 
@@ -949,6 +949,7 @@ const TYPE_COLORS: Readonly<Record<string, string>> = {
 const VESSEL_TYPE_KEYS = ["Cargo", "Tanker", "Fishing", "Passenger", "Other"] as const;
 
 let chartTooltipEl: HTMLDivElement | null = null;
+let chartTooltipAbort: AbortController | null = null;
 
 function getChartTooltip(): HTMLDivElement {
   if (!chartTooltipEl) {
@@ -960,6 +961,11 @@ function getChartTooltip(): HTMLDivElement {
 }
 
 function attachChartTooltip(chart: Element, rows: ChartRow[], data: TimelineData): void {
+  // Abort previous listeners to prevent leaks on re-render
+  if (chartTooltipAbort) chartTooltipAbort.abort();
+  chartTooltipAbort = new AbortController();
+  const { signal } = chartTooltipAbort;
+
   const svg = chart.tagName === "svg" ? chart : chart.querySelector("svg");
   if (!svg) return;
 
@@ -1042,11 +1048,11 @@ function attachChartTooltip(chart: Element, rows: ChartRow[], data: TimelineData
       tooltip.style.left = `${tipX}px`;
     }
     tooltip.style.top = `${Math.max(4, tipY - tooltip.offsetHeight / 2)}px`;
-  });
+  }, { signal });
 
   svg.addEventListener("pointerleave", () => {
     tooltip.classList.add("hidden");
-  });
+  }, { signal });
 }
 
 function renderChart(data: TimelineData): void {
@@ -1200,8 +1206,15 @@ function checkLiveStatus(): void {
       document.getElementById("live-badge")!.classList.add("hidden");
     });
 
-  // Re-check every 30 seconds
-  setInterval(() => checkLiveStatus(), 30_000);
+}
+
+// Single heartbeat interval — started once in initMap
+let heartbeatTimer: ReturnType<typeof setInterval> | null = null;
+
+function startHeartbeat(): void {
+  if (heartbeatTimer) return;
+  checkLiveStatus();
+  heartbeatTimer = setInterval(checkLiveStatus, 30_000);
 }
 
 // === Theme switching ===
