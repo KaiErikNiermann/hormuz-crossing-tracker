@@ -1,0 +1,20 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx tsc --noEmit && npx esbuild src/app.ts --bundle --outfile=dist/app.js --format=iife --sourcemap --external:maplibre-gl --target=es2020",
+    "watch": "npx esbuild src/app.ts --bundle --outfile=dist/app.js --format=iife --sourcemap --external:maplibre-gl --target=es2020 --watch",
+    "typecheck": "npx tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "esbuild": "^0.27.4",
+    "maplibre-gl": "^5.20.0",
+    "typescript": "^5.9.3"
+  }
+}

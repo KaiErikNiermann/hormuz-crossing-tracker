@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strait of Hormuz - Vessel Tracker</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map"></div>
+
+  <button id="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
+    <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+    </svg>
+    <svg id="icon-moon" class="hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+  </button>
+
+  <div id="sidebar">
+    <div class="sidebar-header">
+      <h1>Strait of Hormuz</h1>
+      <span id="live-badge" class="hidden">LIVE</span>
+    </div>
+    <p class="subtitle">Maritime Passage Tracker</p>
+
+    <div id="stats">
+      <div class="stat">
+        <span class="stat-value" id="vessel-count">-</span>
+        <span class="stat-label">Vessels in area</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="crossing-count">-</span>
+        <span class="stat-label">Crossings</span>
+      </div>
+    </div>
+
+    <div id="direction-stats" class="hidden">
+      <div class="stat-row">
+        <span class="direction-label inbound-label">IN</span>
+        <span class="stat-value-sm" id="inbound-count">-</span>
+      </div>
+      <div class="stat-row">
+        <span class="direction-label outbound-label">OUT</span>
+        <span class="stat-value-sm" id="outbound-count">-</span>
+      </div>
+    </div>
+
+    <div id="legend">
+      <h3>Vessel Types</h3>
+      <div class="legend-item"><span class="dot cargo"></span> Cargo</div>
+      <div class="legend-item"><span class="dot tanker"></span> Tanker</div>
+      <div class="legend-item"><span class="dot fishing"></span> Fishing</div>
+      <div class="legend-item"><span class="dot passenger"></span> Passenger</div>
+      <div class="legend-item"><span class="dot other"></span> Other</div>
+    </div>
+
+    <div id="zones-legend">
+      <h3>Geofence Zones</h3>
+      <div class="legend-item"><span class="zone-swatch bbox"></span> Tracking area</div>
+      <div class="legend-item"><span class="zone-swatch west"></span> West zone</div>
+      <div class="legend-item"><span class="zone-swatch east"></span> East zone</div>
+      <div class="legend-item"><span class="zone-swatch tss"></span> TSS separation</div>
+      <div class="legend-item"><span class="line-swatch inbound"></span> Inbound lane</div>
+      <div class="legend-item"><span class="line-swatch outbound"></span> Outbound lane</div>
+    </div>
+
+    <div id="snapshot-info">
+      <p>Data snapshot: <span id="snapshot-time">-</span></p>
+    </div>
+  </div>
+
+  <div id="chart-panel" class="hidden">
+    <div id="chart-tabs">
+      <button class="chart-tab active" data-mode="direction">In / Out</button>
+      <button class="chart-tab" data-mode="type">By Type</button>
+    </div>
+    <div id="chart-container"></div>
+  </div>
+
+  <div id="timeline-bar" class="hidden">
+    <button id="timeline-play" title="Play/Pause">&#9654;</button>
+    <button id="timeline-chart-toggle" title="Toggle crossings chart">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>
+      </svg>
+    </button>
+    <input type="range" id="timeline-slider" min="0" max="0" value="0" step="1">
+    <span id="timeline-date">-</span>
+    <span id="timeline-count">-</span>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="dist/app.js"></script>
+</body>
+</html>
