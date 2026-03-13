@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: site/pnpm-lock.yaml
+
+      - name: Install Python dependencies
+        run: |
+          pip install poetry
+          poetry install --only main --no-root
+
+      - name: Check Python syntax
+        run: |
+          python -c "
+          import py_compile, pathlib
+          for f in pathlib.Path('.').rglob('*.py'):
+              if 'node_modules' in str(f): continue
+              py_compile.compile(str(f), doraise=True)
+          print('All Python files OK')
+          "
+
+      - name: Install frontend dependencies
+        run: cd site && pnpm install
+
+      - name: TypeScript typecheck
+        run: cd site && pnpm run typecheck
+
+      - name: Build frontend
+        run: cd site && pnpm run build
+
+      - name: Verify build output
+        run: test -f site/dist/app.js

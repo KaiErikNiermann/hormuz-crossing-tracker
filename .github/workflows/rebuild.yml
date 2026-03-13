@@ -1,0 +1,83 @@
+name: Scheduled Rebuild (GFW fallback)
+
+on:
+  schedule:
+    # Runs 3 hours after the local cron (which runs at 00:00 UTC on days 1,6,11,16,21,26)
+    - cron: "0 3 1,6,11,16,21,26 * *"
+  workflow_dispatch: # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 10
+
+      - name: Check if local rebuild already ran
+        id: freshness
+        run: |
+          # If the last commit touching data files is < 12 hours old, skip
+          LAST_DATA_COMMIT=$(git log -1 --format=%ct -- site/data/vessels_timeline.json 2>/dev/null || echo 0)
+          NOW=$(date +%s)
+          AGE_HOURS=$(( (NOW - LAST_DATA_COMMIT) / 3600 ))
+          echo "Last data commit age: ${AGE_HOURS}h"
+          if [ "$AGE_HOURS" -lt 12 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Local rebuild already pushed — skipping"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "No recent rebuild — proceeding with GFW-only fetch"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.freshness.outputs.skip != 'true'
+        with:
+          python-version: "3.13"
+
+      - uses: pnpm/action-setup@v4
+        if: steps.freshness.outputs.skip != 'true'
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        if: steps.freshness.outputs.skip != 'true'
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: site/pnpm-lock.yaml
+
+      - name: Install dependencies
+        if: steps.freshness.outputs.skip != 'true'
+        run: |
+          pip install poetry
+          poetry install --only main --no-root
+          pip install requests
+          cd site && pnpm install
+
+      - name: Fetch GFW data
+        if: steps.freshness.outputs.skip != 'true'
+        env:
+          GFW_API_ACCESS_TOKEN: ${{ secrets.GFW_API_ACCESS_TOKEN }}
+        run: poetry run fetch-gfw
+
+      - name: Merge timeline (GFW-only, no AIS DB in CI)
+        if: steps.freshness.outputs.skip != 'true'
+        run: poetry run export-snapshot
+
+      - name: Build frontend
+        if: steps.freshness.outputs.skip != 'true'
+        run: cd site && pnpm run build
+
+      - name: Commit and push
+        if: steps.freshness.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/data/gfw_timeline.json site/data/vessels_timeline.json site/data/vessels.json site/dist/
+          git diff --cached --quiet && { echo "No changes"; exit 0; }
+          git commit -m "chore(data): scheduled GFW rebuild $(date -u +%Y-%m-%d) [ci]"
+          git push
