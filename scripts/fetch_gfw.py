@@ -521,7 +521,7 @@ def main() -> None:
         timeline["source"] = "Global Fishing Watch"
         timeline["date_range"] = {"start": start_date, "end": end_date}
 
-        timeline_path = OUTPUT_DIR / "vessels_timeline.json"
+        timeline_path = OUTPUT_DIR / "gfw_timeline.json"
         with open(timeline_path, "w", encoding="utf-8") as f:
             json.dump(timeline, f, separators=(",", ":"))
         size_mb = timeline_path.stat().st_size / 1024 / 1024
