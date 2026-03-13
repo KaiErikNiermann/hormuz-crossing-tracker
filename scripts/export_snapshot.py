@@ -171,16 +171,18 @@ def merge_timeline(gfw_timeline: dict | None, ais_vessels: list[dict]) -> dict:
         if d:
             ais_by_date.setdefault(d, []).append(v)
 
+    # Only merge AIS data into dates that already exist in the GFW timeline.
+    # AIS-only dates (outside the GFW range) are too sparse to be meaningful.
+    gfw_dates: set[str] = set(dates)
+
     ais_added = 0
     deduped = 0
+    skipped_dates = 0
 
     for date, day_vessels in sorted(ais_by_date.items()):
-        # Ensure date exists in timeline
-        if date not in positions:
-            positions[date] = []
-            if date not in dates:
-                dates.append(date)
-                dates.sort()
+        if date not in gfw_dates:
+            skipped_dates += 1
+            continue
 
         # Track which GFW vesselIds already have a position on this date
         existing_vids_on_date: set[str] = set()
@@ -250,9 +252,10 @@ def merge_timeline(gfw_timeline: dict | None, ais_vessels: list[dict]) -> dict:
         daily_stats[date] = stats
 
     LOGGER.info(
-        "Merge complete: %d AIS positions added, %d MMSI deduped, %d total vessels",
+        "Merge complete: %d AIS positions added, %d MMSI deduped, %d dates skipped (outside GFW range), %d total vessels",
         ais_added,
         deduped,
+        skipped_dates,
         len(vessels),
     )
 
