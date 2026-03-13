@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "strait-of-hormuz"
+version = "0.1.0"
+description = "Maritime passage tracker for the Strait of Hormuz"
+authors = ["demo"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+psycopg2-binary = "^2.9"
+pyyaml = "^6.0"
+websockets = "^16.0"
+requests = "^2.31"
+
+[tool.poetry.scripts]
+worker = "worker.persistent_workers:main"
+tracker = "worker.maritime_passages_live:main"
+tracker-reset = "worker.maritime_passages_live:reset_and_seed"
+export-snapshot = "scripts.export_snapshot:main"
+fetch-gfw = "scripts.fetch_gfw:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

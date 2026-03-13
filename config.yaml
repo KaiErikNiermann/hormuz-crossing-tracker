@@ -1,0 +1,31 @@
+maritime_live_tracker:
+  api_key_env: AISSTREAM_API_KEY
+  run_seconds: 0
+  state_ttl_hours: 48
+  crossing_timeout_hours: 18
+  min_event_gap_hours: 6
+  filter_message_types:
+  - PositionReport
+  - StandardClassBPositionReport
+  - ExtendedClassBPositionReport
+  - ShipStaticData
+  - StaticDataReport
+  passages:
+  - name: Hormuz
+    bbox:
+      south: 25.4
+      west: 55.0
+      north: 26.9
+      east: 57.8
+    zone_a_name: west
+    zone_a:
+      south: 26.0
+      west: 55.85
+      north: 26.75
+      east: 56.35
+    zone_b_name: east
+    zone_b:
+      south: 25.95
+      west: 56.95
+      north: 26.65
+      east: 57.45
