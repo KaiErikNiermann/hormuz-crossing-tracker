@@ -454,6 +454,15 @@ h1 {
 }
 
 /* Custom chart tooltip — matches vessel popup style */
+.chart-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--muted);
+  font-size: 13px;
+}
+
 .chart-tooltip {
   position: absolute;
   z-index: 20;

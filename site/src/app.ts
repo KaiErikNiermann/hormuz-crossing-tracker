@@ -879,12 +879,16 @@ function initChart(data: TimelineData): void {
 }
 
 function loadAndRenderChart(data: TimelineData): void {
+  const container = document.getElementById("chart-container")!;
+  container.innerHTML = '<div class="chart-loading">Loading chart\u2026</div>';
+
   import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm" as string)
     .then((mod) => {
       Plot = mod;
       renderChart(data);
     })
     .catch((err) => {
+      container.innerHTML = '<div class="chart-loading">Failed to load chart</div>';
       console.error("Failed to load Observable Plot:", err);
     });
 }
