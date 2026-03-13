@@ -30,6 +30,10 @@
   ));
 
   // src/app.ts
+  var BUILD_VERSION = true ? "mmop5j1m" : "";
+  function dataUrl(path) {
+    return BUILD_VERSION ? `${path}?v=${BUILD_VERSION}` : path;
+  }
   var STYLES = {
     light: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
     dark: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
@@ -379,14 +383,14 @@
     });
   }
   function loadVesselData() {
-    fetch("data/vessels_timeline.json").then((r) => {
+    fetch(dataUrl("data/vessels_timeline.json")).then((r) => {
       if (!r.ok) throw new Error("No timeline data");
       return r.json();
     }).then((data) => {
       timelineData = data;
       initTimeline(data);
     }).catch(() => {
-      fetch("data/vessels.json").then((r) => {
+      fetch(dataUrl("data/vessels.json")).then((r) => {
         if (!r.ok) throw new Error("No vessel data available yet");
         return r.json();
       }).then((data) => {
@@ -939,7 +943,7 @@
     }
   }
   function checkLiveStatus() {
-    fetch("data/heartbeat.json").then((r) => {
+    fetch(dataUrl("data/heartbeat.json")).then((r) => {
       if (!r.ok) throw new Error("No heartbeat");
       return r.json();
     }).then((hb) => {

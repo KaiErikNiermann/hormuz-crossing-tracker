@@ -69,6 +69,14 @@ interface TimelineData {
   readonly daily_stats: Readonly<Record<string, Record<string, number>>>;
 }
 
+// Build version for cache-busting data fetches (updated by esbuild --define)
+declare const __BUILD_VERSION__: string;
+const BUILD_VERSION: string = typeof __BUILD_VERSION__ !== "undefined" ? __BUILD_VERSION__ : "";
+
+function dataUrl(path: string): string {
+  return BUILD_VERSION ? `${path}?v=${BUILD_VERSION}` : path;
+}
+
 // === Constants ===
 
 const STYLES: Readonly<Record<string, string>> = {
@@ -479,7 +487,7 @@ function addGeofenceLayers(): void {
 
 function loadVesselData(): void {
   // Try timeline data first (has daily positions + direction)
-  fetch("data/vessels_timeline.json")
+  fetch(dataUrl("data/vessels_timeline.json"))
     .then((r) => {
       if (!r.ok) throw new Error("No timeline data");
       return r.json() as Promise<TimelineData>;
@@ -490,7 +498,7 @@ function loadVesselData(): void {
     })
     .catch(() => {
       // Fall back to single snapshot
-      fetch("data/vessels.json")
+      fetch(dataUrl("data/vessels.json"))
         .then((r) => {
           if (!r.ok) throw new Error("No vessel data available yet");
           return r.json() as Promise<Snapshot>;
@@ -1174,7 +1182,7 @@ function updateChartHighlight(data: TimelineData): void {
 // === Live status detection ===
 
 function checkLiveStatus(): void {
-  fetch("data/heartbeat.json")
+  fetch(dataUrl("data/heartbeat.json"))
     .then((r) => {
       if (!r.ok) throw new Error("No heartbeat");
       return r.json() as Promise<{ timestamp: string }>;
