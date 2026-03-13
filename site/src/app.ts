@@ -56,8 +56,8 @@ interface VesselMeta {
   readonly flag: string | null;
 }
 
-// Position tuple: [vesselId, lat, lon, bearing, direction, transit, zone]
-type PositionTuple = readonly [string, number, number, number | null, string | null, string | null, string | null];
+// Position tuple: [vesselId, lat, lon, bearing, direction, transit, zone, source?]
+type PositionTuple = readonly [string, number, number, number | null, string | null, string | null, string | null, string | null];
 
 interface TimelineData {
   readonly generated_at: string;
@@ -155,6 +155,7 @@ let map: MLMap;
 let timelineData: TimelineData | null = null;
 let currentDateIndex = -1;
 let animationTimer: ReturnType<typeof setInterval> | null = null;
+let sourceFilter: "all" | "gfw" | "ais" = "all";
 
 
 // === Helpers ===
@@ -507,11 +508,21 @@ function loadVesselData(): void {
     });
 }
 
+function filterBySource(positions: readonly PositionTuple[]): readonly PositionTuple[] {
+  if (sourceFilter === "all") return positions;
+  return positions.filter((p) => {
+    const src = p[7] ?? "gfw";
+    if (sourceFilter === "gfw") return src === "gfw" || src === "both";
+    return src === "ais" || src === "both";
+  });
+}
+
 function renderVesselsForDate(date: string): void {
   if (!timelineData) return;
 
-  const positions = timelineData.positions[date];
-  if (!positions) return;
+  const rawPositions = timelineData.positions[date];
+  if (!rawPositions) return;
+  const positions = filterBySource(rawPositions);
 
   const features = positions
     .filter((p) => p[1] && p[2])
@@ -551,9 +562,9 @@ function renderVesselsForDate(date: string): void {
     addVesselLayers();
   }
 
-  // Update stats
+  // Update stats (use filtered count, not precomputed total)
   const stats = timelineData.daily_stats[date];
-  document.getElementById("vessel-count")!.textContent = String(stats?.total ?? positions.length);
+  document.getElementById("vessel-count")!.textContent = String(positions.length);
   document.getElementById("crossing-count")!.textContent = String(stats?.crossings ?? 0);
 
   // Update direction stats
@@ -726,6 +737,32 @@ function updateSnapshotTime(isoString: string | null): void {
 
 // === Timeline slider ===
 
+function initSourceFilter(data: TimelineData): void {
+  const container = document.getElementById("source-filter");
+  if (!container) return;
+
+  // Only show if timeline has multiple sources
+  const sources = (data as unknown as Record<string, unknown>).sources as string[] | undefined;
+  if (!sources || sources.length < 2) {
+    container.classList.add("hidden");
+    return;
+  }
+  container.classList.remove("hidden");
+
+  for (const btn of document.querySelectorAll<HTMLButtonElement>(".source-btn")) {
+    btn.addEventListener("click", () => {
+      sourceFilter = btn.dataset.source as "all" | "gfw" | "ais";
+      for (const b of document.querySelectorAll(".source-btn")) b.classList.remove("active");
+      btn.classList.add("active");
+      if (timelineData && currentDateIndex >= 0) {
+        const date = timelineData.dates[currentDateIndex]!;
+        renderVesselsForDate(date);
+        updateChartHighlight(timelineData);
+      }
+    });
+  }
+}
+
 function initTimeline(data: TimelineData): void {
   const bar = document.getElementById("timeline-bar")!;
   const slider = document.getElementById("timeline-slider") as HTMLInputElement;
@@ -743,6 +780,7 @@ function initTimeline(data: TimelineData): void {
   currentDateIndex = startIdx;
 
   bar.classList.remove("hidden");
+  initSourceFilter(data);
   initChart(data);
 
   // Render initial date
