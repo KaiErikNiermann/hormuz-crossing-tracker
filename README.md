@@ -151,12 +151,20 @@ strait-of-hormuz/
 
 ## Data Sources
 
-- **[Global Fishing Watch](https://globalfishingwatch.org/)** — Satellite-derived vessel presence (AIS + SAR). Data subject to GFW Terms of Use; not redistributed in this repository.
-- **[AISStream](https://aisstream.io/)** — Real-time AIS position reports via WebSocket.
-- **Basemaps** — [CARTO](https://carto.com/) Positron and Dark Matter via MapLibre GL.
+- **[Global Fishing Watch](https://globalfishingwatch.org/)** — Satellite-derived vessel presence (AIS + SAR)
+- **[AISStream](https://aisstream.io/)** — Real-time AIS position reports via WebSocket
+- **Basemaps** — [CARTO](https://carto.com/) Positron and Dark Matter via MapLibre GL
+
+## Data Releases
+
+Cumulative and rolling 30-day data snapshots are published as [GitHub Releases](../../releases) on each rebuild cycle (~every 5 days). Each release includes:
+
+- `vessels_timeline.json` — Full cumulative GFW + AIS merged timeline
+- `vessels_timeline_30d.json` — Rolling 30-day batch
+- `gfw_timeline.json` — GFW-only timeline
+- `vessels.json` — Flat vessel metadata snapshot
 
 ## License
 
-GPL-3.0 — see [LICENSE](LICENSE).
-
-GFW data is subject to [Global Fishing Watch Terms of Use](https://globalfishingwatch.org/terms-of-use/) and is not included in this repository. Users must obtain their own API token.
+- **Code**: [GPL-3.0](LICENSE)
+- **Data**: See [DATA_LICENSE.md](DATA_LICENSE.md) — GFW data is [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (non-commercial only, attribution required), AIS data is from public broadcasts

@@ -47,4 +47,46 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
 # Push — pre-push hook runs here and will block if checks fail
 git push
 
+# 5. Create GitHub release with data assets
+echo "--- Step 5: GitHub release ---"
+python scripts/prepare_release.py
+
+TAG="data-${REBUILD_DATE}"
+DATES=$(python -c "import json; d=json.load(open('site/data/vessels_timeline.json')); print(len(d['dates']))")
+VESSELS=$(python -c "import json; d=json.load(open('site/data/vessels_timeline.json')); print(len(d['vessels']))")
+RANGE_START=$(python -c "import json; d=json.load(open('site/data/vessels_timeline.json')); print(d['date_range']['start'])")
+RANGE_END=$(python -c "import json; d=json.load(open('site/data/vessels_timeline.json')); print(d['date_range']['end'])")
+
+RELEASE_BODY=$(cat <<BODY
+## Data Release ${REBUILD_DATE}
+
+**Coverage**: ${RANGE_START} to ${RANGE_END} (${DATES} days, ${VESSELS} vessels)
+
+### Assets
+- \`vessels_timeline.json\` — Full cumulative GFW + AIS merged timeline
+- \`gfw_timeline.json\` — GFW-only timeline
+- \`vessels.json\` — Flat vessel metadata snapshot
+- \`vessels_timeline_30d.json\` — Rolling 30-day batch
+- \`DATA_LICENSE.md\` — Data licensing terms
+
+### Data Sources & Licensing
+- **Global Fishing Watch** — Vessel presence via 4Wings API. Licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Attribution: [globalfishingwatch.org](https://globalfishingwatch.org)
+- **AIS** — Live vessel positions from public AIS broadcasts via [AISStream.io](https://aisstream.io)
+
+> This data is provided for **non-commercial use only** per the GFW CC BY-NC 4.0 license.
+BODY
+)
+
+gh release create "$TAG" \
+  --title "Data snapshot ${REBUILD_DATE}" \
+  --notes "$RELEASE_BODY" \
+  release/vessels_timeline.json \
+  release/gfw_timeline.json \
+  release/vessels.json \
+  release/vessels_timeline_30d.json \
+  release/DATA_LICENSE.md \
+  || echo "WARNING: GitHub release creation failed (non-fatal)"
+
+rm -rf release/
+
 echo "=== Rebuild completed at $(date -u --iso-8601=seconds) ==="
