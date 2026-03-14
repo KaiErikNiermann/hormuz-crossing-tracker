@@ -551,6 +551,12 @@ h1 {
   line-height: 1.5;
 }
 
+.popup-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 8px 0;
+}
+
 @media (max-width: 768px) {
   #sidebar {
     width: 240px;

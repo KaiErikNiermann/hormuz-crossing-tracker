@@ -685,29 +685,48 @@ function addVesselLayers(): void {
   });
 
   const vesselClickHandler = (e: MapMouseEvent & { features?: GeoJSON.Feature[] }): void => {
-    const feature = e.features?.[0];
-    if (!feature) return;
-    const props = feature.properties ?? {};
-    const coords = (feature.geometry as GeoJSON.Point).coordinates.slice() as [number, number];
+    if (!e.features?.length) return;
+    const coords = (e.features[0]!.geometry as GeoJSON.Point).coordinates.slice() as [number, number];
 
-    const transitHtml = props.transit !== "-"
-      ? `<br>Transit: <strong>${props.transit as string}</strong>`
-      : "";
-    const zoneHtml = props.zone && props.zone !== "-"
-      ? `<br>Zone: ${props.zone as string}`
-      : "";
+    // Query both layers at the click point to get all overlapping vessels
+    const allFeatures = map.queryRenderedFeatures(e.point, {
+      layers: ["vessels-arrows", "vessels-circle"],
+    });
+    if (!allFeatures.length) return;
 
-    new maplibregl.Popup({ offset: 12 })
+    // Deduplicate by MMSI (both layers may return the same feature)
+    const seen = new Set<string>();
+    const unique: GeoJSON.Feature[] = [];
+    for (const f of allFeatures) {
+      const mmsi = f.properties?.mmsi as string;
+      if (mmsi && !seen.has(mmsi)) {
+        seen.add(mmsi);
+        unique.push(f);
+      }
+    }
+
+    const cards = unique.map((f) => {
+      const props = f.properties ?? {};
+      const transitHtml = props.transit !== "-"
+        ? `<br>Transit: <strong>${props.transit as string}</strong>`
+        : "";
+      const zoneHtml = props.zone && props.zone !== "-"
+        ? `<br>Zone: ${props.zone as string}`
+        : "";
+      return `<div class="popup-vessel">
+        <div class="popup-title">${props.name as string}</div>
+        <div class="popup-detail">
+          Type: ${props.type as string}<br>
+          MMSI: ${props.mmsi as string}<br>
+          Flag: ${props.flag as string}<br>
+          Direction: ${props.direction as string}${transitHtml}${zoneHtml}
+        </div>
+      </div>`;
+    });
+
+    new maplibregl.Popup({ offset: 12, maxWidth: "320px" })
       .setLngLat(coords)
-      .setHTML(
-        `<div class="popup-title">${props.name as string}</div>
-         <div class="popup-detail">
-           Type: ${props.type as string}<br>
-           MMSI: ${props.mmsi as string}<br>
-           Flag: ${props.flag as string}<br>
-           Direction: ${props.direction as string}${transitHtml}${zoneHtml}
-         </div>`
-      )
+      .setHTML(cards.join('<hr class="popup-divider">'))
       .addTo(map);
   };
 

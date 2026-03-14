@@ -30,7 +30,7 @@
   ));
 
   // src/app.ts
-  var BUILD_VERSION = true ? "mmozlq5s" : "";
+  var BUILD_VERSION = true ? "mmqfvv2q" : "";
   function dataUrl(path) {
     return BUILD_VERSION ? `${path}?v=${BUILD_VERSION}` : path;
   }
@@ -546,21 +546,36 @@
       }
     });
     const vesselClickHandler = (e) => {
-      const feature = e.features?.[0];
-      if (!feature) return;
-      const props = feature.properties ?? {};
-      const coords = feature.geometry.coordinates.slice();
-      const transitHtml = props.transit !== "-" ? `<br>Transit: <strong>${props.transit}</strong>` : "";
-      const zoneHtml = props.zone && props.zone !== "-" ? `<br>Zone: ${props.zone}` : "";
-      new maplibregl.Popup({ offset: 12 }).setLngLat(coords).setHTML(
-        `<div class="popup-title">${props.name}</div>
-         <div class="popup-detail">
-           Type: ${props.type}<br>
-           MMSI: ${props.mmsi}<br>
-           Flag: ${props.flag}<br>
-           Direction: ${props.direction}${transitHtml}${zoneHtml}
-         </div>`
-      ).addTo(map);
+      if (!e.features?.length) return;
+      const coords = e.features[0].geometry.coordinates.slice();
+      const allFeatures = map.queryRenderedFeatures(e.point, {
+        layers: ["vessels-arrows", "vessels-circle"]
+      });
+      if (!allFeatures.length) return;
+      const seen = /* @__PURE__ */ new Set();
+      const unique = [];
+      for (const f of allFeatures) {
+        const mmsi = f.properties?.mmsi;
+        if (mmsi && !seen.has(mmsi)) {
+          seen.add(mmsi);
+          unique.push(f);
+        }
+      }
+      const cards = unique.map((f) => {
+        const props = f.properties ?? {};
+        const transitHtml = props.transit !== "-" ? `<br>Transit: <strong>${props.transit}</strong>` : "";
+        const zoneHtml = props.zone && props.zone !== "-" ? `<br>Zone: ${props.zone}` : "";
+        return `<div class="popup-vessel">
+        <div class="popup-title">${props.name}</div>
+        <div class="popup-detail">
+          Type: ${props.type}<br>
+          MMSI: ${props.mmsi}<br>
+          Flag: ${props.flag}<br>
+          Direction: ${props.direction}${transitHtml}${zoneHtml}
+        </div>
+      </div>`;
+      });
+      new maplibregl.Popup({ offset: 12, maxWidth: "320px" }).setLngLat(coords).setHTML(cards.join('<hr class="popup-divider">')).addTo(map);
     };
     for (const layerId of ["vessels-arrows", "vessels-circle"]) {
       map.on("click", layerId, vesselClickHandler);
