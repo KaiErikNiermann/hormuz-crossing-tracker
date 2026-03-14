@@ -509,6 +509,8 @@ h1 {
   padding: 14px 16px;
   border-radius: 10px;
   background: var(--sidebar-bg);
+  max-height: 240px;
+  overflow-y: auto;
   color: var(--fg);
   border: 1px solid var(--border);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -549,6 +551,14 @@ h1 {
   color: var(--muted);
   font-size: 12px;
   line-height: 1.5;
+}
+
+.popup-header {
+  font-size: 11px;
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
 }
 
 .popup-divider {

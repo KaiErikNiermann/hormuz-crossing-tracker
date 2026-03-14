@@ -724,9 +724,13 @@ function addVesselLayers(): void {
       </div>`;
     });
 
+    const header = unique.length > 1
+      ? `<div class="popup-header">${unique.length} vessels at this location</div><hr class="popup-divider">`
+      : "";
+
     new maplibregl.Popup({ offset: 12, maxWidth: "320px" })
       .setLngLat(coords)
-      .setHTML(cards.join('<hr class="popup-divider">'))
+      .setHTML(header + cards.join('<hr class="popup-divider">'))
       .addTo(map);
   };
 

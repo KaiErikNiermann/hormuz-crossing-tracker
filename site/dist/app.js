@@ -30,7 +30,7 @@
   ));
 
   // src/app.ts
-  var BUILD_VERSION = true ? "mmqfvv2q" : "";
+  var BUILD_VERSION = true ? "mmqg4aex" : "";
   function dataUrl(path) {
     return BUILD_VERSION ? `${path}?v=${BUILD_VERSION}` : path;
   }
@@ -575,7 +575,8 @@
         </div>
       </div>`;
       });
-      new maplibregl.Popup({ offset: 12, maxWidth: "320px" }).setLngLat(coords).setHTML(cards.join('<hr class="popup-divider">')).addTo(map);
+      const header = unique.length > 1 ? `<div class="popup-header">${unique.length} vessels at this location</div><hr class="popup-divider">` : "";
+      new maplibregl.Popup({ offset: 12, maxWidth: "320px" }).setLngLat(coords).setHTML(header + cards.join('<hr class="popup-divider">')).addTo(map);
     };
     for (const layerId of ["vessels-arrows", "vessels-circle"]) {
       map.on("click", layerId, vesselClickHandler);
