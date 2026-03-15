@@ -166,7 +166,7 @@ A **crossing** is recorded when a vessel moves between the west approach zone (P
 
 ### Daily snapshot timing
 
-Each date on the timeline represents a **full 24-hour UTC day** as aggregated by GFW. The position shown is the representative location for each vessel during that day — not a single point-in-time capture. GFW data has a **~5-day lag** from the current date. Live AIS is real-time but only merged into dates with existing GFW coverage.
+Each date on the timeline represents a **full 24-hour UTC day** as aggregated by GFW — one record per vessel per day, no duplicates. Positions are **snapped to a spatial grid** (not precise GPS), representing the grid cell where the vessel was detected. Vessels in the same cell appear as overlapping markers. The `hours` field indicates detection duration (2h = passing through, 20h = anchored). GFW data has a **~5-day lag** from the current date. Live AIS is real-time but only merged into dates with existing GFW coverage.
 
 ### Limitations
 

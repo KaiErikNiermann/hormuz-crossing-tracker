@@ -126,7 +126,8 @@
       <strong>Outbound</strong> = west &rarr; east (leaving toward the Gulf of Oman).</p>
 
       <h3>Daily snapshot timing</h3>
-      <p>Each date on the timeline represents a <strong>full 24-hour UTC day</strong> of vessel detections as aggregated by Global Fishing Watch. Positions shown are the representative location for each vessel during that day &mdash; not a single point-in-time snapshot.</p>
+      <p>Each date on the timeline represents a <strong>full 24-hour UTC day</strong> of vessel detections as aggregated by Global Fishing Watch. There is one record per vessel per day &mdash; no duplicates.</p>
+      <p>Positions are <strong>snapped to a spatial grid</strong> (not precise GPS coordinates). The location shown is the grid cell the vessel occupied, likely where it spent the most time or was last detected. This means vessels in the same grid cell appear as overlapping markers. The <code>hours</code> field indicates how long a vessel was detected in the area (e.g. 2h = briefly passing through, 20h = anchored or slow transit).</p>
       <p>GFW data has a <strong>~5 day lag</strong> from the current date. Live AIS positions are real-time but are only merged into dates that already have GFW coverage.</p>
 
       <h3>Data sources</h3>
