@@ -30,7 +30,7 @@
   ));
 
   // src/app.ts
-  var BUILD_VERSION = true ? "mmqg4aex" : "";
+  var BUILD_VERSION = true ? "mmrirws0" : "";
   function dataUrl(path) {
     return BUILD_VERSION ? `${path}?v=${BUILD_VERSION}` : path;
   }

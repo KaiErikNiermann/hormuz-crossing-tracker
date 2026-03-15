@@ -25,7 +25,11 @@
       <h1>Strait of Hormuz</h1>
       <span id="live-badge" class="hidden">LIVE</span>
     </div>
-    <p class="subtitle">Maritime Passage Tracker</p>
+    <p class="subtitle">Maritime Passage Tracker
+      <button id="info-btn" title="Methodology &amp; data notes" onclick="document.getElementById('info-modal').classList.remove('hidden')">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      </button>
+    </p>
 
     <div id="stats">
       <div class="stat">
@@ -104,6 +108,43 @@
     <input type="range" id="timeline-slider" min="0" max="0" value="0" step="1">
     <span id="timeline-date">-</span>
     <span id="timeline-count">-</span>
+  </div>
+
+  <div id="info-modal" class="hidden">
+    <div class="modal-backdrop" onclick="document.getElementById('info-modal').classList.add('hidden')"></div>
+    <div class="modal-content">
+      <button class="modal-close" onclick="document.getElementById('info-modal').classList.add('hidden')">&times;</button>
+      <h2>Methodology</h2>
+
+      <h3>What is a "crossing"?</h3>
+      <p>A crossing is recorded when a vessel transits between the <strong>west approach zone</strong> (Persian Gulf side) and the <strong>east approach zone</strong> (Gulf of Oman side) of the Strait of Hormuz.</p>
+      <ul>
+        <li><strong>Live AIS</strong> &mdash; Detects when a vessel enters one zone and subsequently appears in the opposite zone within 18 hours. A minimum 6-hour gap between consecutive crossings for the same vessel prevents duplicates.</li>
+        <li><strong>GFW historical</strong> &mdash; Compares each vessel's daily position against a dividing meridian at 56.5&deg;E. If a vessel moves from one side to the other between consecutive days, a crossing is recorded.</li>
+      </ul>
+      <p><strong>Inbound</strong> = east &rarr; west (entering the Persian Gulf).<br>
+      <strong>Outbound</strong> = west &rarr; east (leaving toward the Gulf of Oman).</p>
+
+      <h3>Daily snapshot timing</h3>
+      <p>Each date on the timeline represents a <strong>full 24-hour UTC day</strong> of vessel detections as aggregated by Global Fishing Watch. Positions shown are the representative location for each vessel during that day &mdash; not a single point-in-time snapshot.</p>
+      <p>GFW data has a <strong>~5 day lag</strong> from the current date. Live AIS positions are real-time but are only merged into dates that already have GFW coverage.</p>
+
+      <h3>Data sources</h3>
+      <table>
+        <tr><th>Source</th><th>Resolution</th><th>Coverage</th></tr>
+        <tr><td>Global Fishing Watch</td><td>Daily aggregate</td><td>Satellite + terrestrial AIS, SAR</td></tr>
+        <tr><td>AISStream</td><td>Real-time</td><td>Terrestrial AIS receivers</td></tr>
+      </table>
+      <p>Vessels appearing in both sources are deduplicated by MMSI and tagged as "both".</p>
+
+      <h3>Limitations</h3>
+      <ul>
+        <li>Vessels can disable AIS transponders ("go dark"), especially in conflict zones</li>
+        <li>GFW daily positions are aggregated &mdash; the exact transit time within a day is unknown</li>
+        <li>Small vessels without AIS class A/B transponders are not tracked</li>
+        <li>AIS spoofing (false position reports) can occur in this region</li>
+      </ul>
+    </div>
   </div>
 
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>

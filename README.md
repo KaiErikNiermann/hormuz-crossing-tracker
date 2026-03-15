@@ -149,6 +149,32 @@ strait-of-hormuz/
 | `GFW_FETCH_INTERVAL_HOURS` | No | Hours between GFW fetches (default: `120`) |
 | `PERSISTENT_TRACKERS` | No | Comma-separated worker names (default: `maritime-passages-live,gfw-periodic-fetch`) |
 
+## Methodology
+
+### How crossings are detected
+
+A **crossing** is recorded when a vessel moves between the west approach zone (Persian Gulf side) and the east approach zone (Gulf of Oman side) of the strait.
+
+| | Live AIS | GFW Historical |
+|---|---|---|
+| **Method** | Two-zone state machine: vessel enters zone A, then appears in zone B | Day-to-day longitude transition across 56.5°E meridian |
+| **Window** | Must complete within 18 hours | Consecutive calendar days |
+| **Dedup** | 6-hour minimum gap between events per vessel | 1 crossing per vessel per day max |
+| **Resolution** | Real-time (seconds) | Daily (24h UTC aggregate) |
+
+**Inbound** = east to west (entering Persian Gulf). **Outbound** = west to east (leaving toward Gulf of Oman).
+
+### Daily snapshot timing
+
+Each date on the timeline represents a **full 24-hour UTC day** as aggregated by GFW. The position shown is the representative location for each vessel during that day — not a single point-in-time capture. GFW data has a **~5-day lag** from the current date. Live AIS is real-time but only merged into dates with existing GFW coverage.
+
+### Limitations
+
+- Vessels can disable AIS transponders ("go dark"), especially in conflict zones
+- GFW daily positions are aggregated — exact transit time within a day is unknown
+- Small vessels without AIS class A/B transponders are not tracked
+- AIS spoofing (false position reports) can occur in this region
+
 ## Data Sources
 
 - **[Global Fishing Watch](https://globalfishingwatch.org/)** — Satellite-derived vessel presence (AIS + SAR)
