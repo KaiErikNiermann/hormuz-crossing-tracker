@@ -2,6 +2,7 @@ services:
   postgres:
     image: postgres:16
     container_name: hormuz-postgres
+    restart: unless-stopped
     environment:
       POSTGRES_USER: hormuz
       POSTGRES_PASSWORD: hormuz
@@ -30,7 +31,7 @@ services:
       HORMUZ_DB_PASSWORD: hormuz
       PERSISTENT_TRACKERS: maritime-passages-live,gfw-periodic-fetch
       PERSISTENT_RESTART_DELAY_SECONDS: 5
-      GFW_FETCH_INTERVAL_HOURS: 120
+      GFW_FETCH_INTERVAL_HOURS: 24
     env_file:
       - .env
     volumes:

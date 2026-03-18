@@ -499,9 +499,10 @@ def main() -> None:
 
     token = get_token()
 
-    # Fetch last 30 days of data (GFW has ~5 day lag)
-    end_date = (datetime.now(UTC) - timedelta(days=5)).strftime("%Y-%m-%d")
-    start_date = (datetime.now(UTC) - timedelta(days=35)).strftime("%Y-%m-%d")
+    # Fetch last 30 days of data (GFW has ~7-9 day lag, but we use a
+    # conservative 3-day offset so we pick up data as soon as it appears)
+    end_date = (datetime.now(UTC) - timedelta(days=3)).strftime("%Y-%m-%d")
+    start_date = (datetime.now(UTC) - timedelta(days=33)).strftime("%Y-%m-%d")
 
     presence: dict = {}
     LOGGER.info("Fetching GFW vessel presence for %s to %s", start_date, end_date)
