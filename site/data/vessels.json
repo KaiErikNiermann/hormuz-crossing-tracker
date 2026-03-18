@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T09:28:30.885091+00:00",
+  "generated_at": "2026-03-18T17:12:37.895188+00:00",
   "vessels": [
     {
       "mmsi": "636023883",
@@ -153,7 +153,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422230101",
@@ -560,7 +560,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "353615000",
@@ -1407,7 +1407,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422167600",
@@ -2111,7 +2111,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "307210000",
@@ -3376,7 +3376,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "630001095",
@@ -3893,7 +3893,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "419956093",
@@ -3959,7 +3959,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "432986000",
@@ -4399,7 +4399,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "636025155",
@@ -4696,7 +4696,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "352002793",
@@ -5268,7 +5268,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "306880000",
@@ -6060,7 +6060,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "215533000",
@@ -6247,7 +6247,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "256548000",
@@ -6313,7 +6313,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "620999367",
@@ -6379,7 +6379,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "341938001",
@@ -6599,7 +6599,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "341348002",
@@ -8150,7 +8150,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "372747000",
@@ -8260,7 +8260,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "306120001",
@@ -9030,7 +9030,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "636024636",
@@ -9690,7 +9690,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "311000663",
@@ -9745,7 +9745,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "463076101",
@@ -9855,7 +9855,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422051300",
@@ -10801,7 +10801,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "414793000",
@@ -11307,7 +11307,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422030131",
@@ -12924,7 +12924,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "636014503",
@@ -13485,7 +13485,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "620999364",
@@ -14475,7 +14475,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "310499000",
@@ -15058,7 +15058,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "352005019",
@@ -15168,7 +15168,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "636018865",
@@ -15212,7 +15212,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "370937000",
@@ -15245,7 +15245,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "477847700",
@@ -15806,7 +15806,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "258960000",
@@ -16114,7 +16114,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "419958505",
@@ -16455,7 +16455,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "408919000",
@@ -16664,7 +16664,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "511101522",
@@ -17555,7 +17555,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "677918200",
@@ -18171,7 +18171,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "471143000",
@@ -18369,7 +18369,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "629009304",
@@ -18743,7 +18743,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "538008124",
@@ -18952,7 +18952,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "470020000",
@@ -19931,7 +19931,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "373459000",
@@ -20778,7 +20778,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "228410600",
@@ -21240,7 +21240,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "371206000",
@@ -21251,7 +21251,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "311000824",
@@ -21680,7 +21680,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "636025628",
@@ -22296,7 +22296,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "620899566",
@@ -22505,7 +22505,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "470104903",
@@ -22747,7 +22747,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422091800",
@@ -23099,7 +23099,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "240657000",
@@ -23121,7 +23121,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "306670000",
@@ -23374,7 +23374,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422697500",
@@ -23682,7 +23682,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422967100",
@@ -24639,7 +24639,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "636025762",
@@ -24771,7 +24771,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "419001809",
@@ -24870,7 +24870,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "636019439",
@@ -24958,7 +24958,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "256667000",
@@ -25167,7 +25167,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "626480000",
@@ -26080,7 +26080,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422546200",
@@ -26839,7 +26839,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422219600",
@@ -27081,7 +27081,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "632001083",
@@ -27213,7 +27213,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "867834600",
@@ -27521,7 +27521,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "369150000",
@@ -28555,7 +28555,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "109011256",
@@ -28720,7 +28720,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "374482000",
@@ -30458,7 +30458,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "351720000",
@@ -30832,7 +30832,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422610000",
@@ -30942,7 +30942,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "376699000",
@@ -32097,7 +32097,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "232045285",
@@ -32746,7 +32746,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "470494000",
@@ -33747,7 +33747,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "563170300",
@@ -33923,7 +33923,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "538011645",
@@ -35265,7 +35265,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422094600",
@@ -35485,7 +35485,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "620999291",
@@ -35903,7 +35903,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "538011728",
@@ -36112,7 +36112,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "352005396",
@@ -36123,7 +36123,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "352001395",
@@ -36222,7 +36222,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422512000",
@@ -37498,7 +37498,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "314277000",
@@ -37773,7 +37773,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422474600",
@@ -38048,7 +38048,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422317300",
@@ -38279,7 +38279,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422255300",
@@ -38708,7 +38708,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422165400",
@@ -39016,7 +39016,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "371061000",
@@ -39071,7 +39071,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "447188000",
@@ -39313,7 +39313,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422113100",
@@ -39753,7 +39753,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422174800",
@@ -42371,7 +42371,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "477476400",
@@ -42558,7 +42558,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "620999345",
@@ -43295,7 +43295,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "619951058",
@@ -45627,7 +45627,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "256727003",
@@ -47200,7 +47200,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422790200",
@@ -47706,7 +47706,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "538011964",
@@ -50533,7 +50533,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422500900",
@@ -51138,7 +51138,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "422289600",
@@ -56066,7 +56066,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "636018616",
@@ -56539,7 +56539,7 @@
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "both"
+      "source": "gfw"
     },
     {
       "mmsi": "550167073",
@@ -57719,181 +57719,7628 @@
       "source": "gfw"
     },
     {
-      "mmsi": "477223400",
-      "name": null,
+      "mmsi": "",
+      "name": "",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
     },
     {
-      "mmsi": "341517002",
-      "name": null,
+      "mmsi": "325307000",
+      "name": "ANDES",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
     },
     {
-      "mmsi": "538008219",
-      "name": null,
+      "mmsi": "470638000",
+      "name": "YACHT 1 VETTATH",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
     },
     {
-      "mmsi": "477223500",
-      "name": "ALEXANDRA",
+      "mmsi": "352005316",
+      "name": "HEA OCEANIC",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
     },
     {
-      "mmsi": "739342889",
-      "name": null,
+      "mmsi": "620800069",
+      "name": "SEA SPARK",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
     },
     {
-      "mmsi": "255806023",
-      "name": "MONTE URBASA",
+      "mmsi": "447276000",
+      "name": "AL ADAILIAH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "371786000",
+      "name": "HARRIS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470016000",
+      "name": "DXB",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "419956995",
+      "name": "MSV NOORE TAIBA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636025028",
+      "name": "AMS HAWK",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "356021000",
+      "name": "MCS ALLIANZ AMBER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "511101662",
+      "name": "ALAA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375766000",
+      "name": "SWISSCO SINGAPORE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470562000",
+      "name": "ADNOC 810",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636020364",
+      "name": "SOLAR ROMA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "610000040",
+      "name": "MAISAN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "868283000",
+      "name": "MY AMARA",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "563242300",
+      "name": "CREST SPARTAN 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538010688",
+      "name": "MATURITY TWO",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422290800",
+      "name": "MASUD9096",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "374807000",
+      "name": "ZHONG YANG MEN",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "750400000",
+      "name": "DFT  LONG",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "461000293",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "511100774",
+      "name": "SEA  WISE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422332000",
+      "name": "SADAF 3000",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "563178300",
+      "name": "ALPINE EAGLE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470473000",
+      "name": "TRISTAR COURAGE",
       "type": "Tanker",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
     },
     {
-      "mmsi": "636017957",
-      "name": null,
+      "mmsi": "341157001",
+      "name": "SEVEN PEARLS",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
     },
     {
-      "mmsi": "477223300",
-      "name": "LILIANA",
+      "mmsi": "210651000",
+      "name": "OCTA DIVINE",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470161000",
+      "name": "NATHRAH",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
     },
     {
-      "mmsi": "650000181",
-      "name": "AURA",
+      "mmsi": "373887000",
+      "name": "MERMAID ASIANA",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538090720",
+      "name": "BLUEBIRD ARROW",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538011119",
+      "name": "SAFEEN ATHENA 3",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "353120000",
+      "name": "HEILAN JOURNEY",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "629009450",
+      "name": "ANABEL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "511104466",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "377399000",
+      "name": "ALLIANZ W02",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422055200",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "461001043",
+      "name": "SVITZER SHINAS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470657000",
+      "name": "LCT BAAYA 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999046",
+      "name": "JULIET",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999812",
+      "name": "SAMIA 2",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "249857000",
+      "name": "WAIKIKI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "372196000",
+      "name": "I.N.W-4",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470159000",
+      "name": "TARFFAH 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470662000",
+      "name": "ADNOC  951",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "461000125",
+      "name": "ALHALLANIYAT",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422514600",
+      "name": "HIVAD",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "372889000",
+      "name": "SAHAR 2",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "419667000",
+      "name": "JAG PRAKASH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636022264",
+      "name": "GMS MANA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470525000",
+      "name": "AL HAMRA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470654000",
+      "name": "SUN TIGER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352003146",
+      "name": "HANA 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "563059400",
+      "name": "MARGHERITA COSULICH",
+      "type": "Tanker",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466327000",
+      "name": "HALUL 91",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470955000",
+      "name": "SHAWAF DUBAI",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "373890000",
+      "name": "PVT VENUS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352006181",
+      "name": "FEI HONG DA 66",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "477712400",
+      "name": "CSCL GLOBE",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "306703000",
+      "name": "AQUALEADER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422160900",
+      "name": "NIL5635",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470205000",
+      "name": "ADNOC 158",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "229070000",
+      "name": "ODESSA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "461001038",
+      "name": "SVITZER LIWA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "441327000",
+      "name": "SKY JOY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466574800",
+      "name": "UMM SLAL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
     },
     {
       "mmsi": "538008311",
-      "name": null,
+      "name": "NISSOS KEROS",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
-    },
-    {
-      "mmsi": "311001914",
-      "name": "NOBLER",
-      "type": "Other",
-      "lat": null,
-      "lng": null,
-      "seen": null,
-      "direction": null,
-      "zone": null,
-      "source": "ais"
+      "source": "gfw"
     },
     {
       "mmsi": "538006333",
-      "name": null,
+      "name": "DMS COURAGEOUS",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
     },
     {
-      "mmsi": "471037000",
-      "name": null,
+      "mmsi": "466332000",
+      "name": "HALUL 81",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
     },
     {
-      "mmsi": "341502002",
-      "name": null,
+      "mmsi": "470403000",
+      "name": "ALBUZEM 3",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422337200",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "649103000",
+      "name": "CRAVE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "518100084",
+      "name": "COMARCO PALMA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470779000",
+      "name": "AL MIRFA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422503900",
+      "name": "SAVASH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470193000",
+      "name": "EASTERN VETRI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422048100",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "373544000",
+      "name": "MELODIE V",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "341234001",
+      "name": "DYNAMIC 17",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470943000",
+      "name": "SEA PARROT",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538011089",
+      "name": "ECO 3",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "307112000",
+      "name": "TRIDENT II",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "611000117",
+      "name": "SKYWAVE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "677053300",
+      "name": "MAHAN 14",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352001263",
+      "name": "QMS SURPRISE XI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375506000",
+      "name": "ZAKHER FORCE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352005047",
+      "name": "FABIA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "461000093",
+      "name": "SAWQRAH",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "419956333",
+      "name": "HAJIPEER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470085000",
+      "name": "ADNOC MP01",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352003428",
+      "name": "CELINE I",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "461000207",
+      "name": "MALAK AL BEHAR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422513400",
+      "name": "ADNYA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "341595001",
+      "name": "YARA J",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470439000",
+      "name": "GOVINDA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620800245",
+      "name": "FARSANA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352003978",
+      "name": "BGP SPIRIT",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470489000",
+      "name": "BREAM ANN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538011249",
+      "name": "UNISAIL STAR",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538003279",
+      "name": "SONGA TOPAZ",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "311001579",
+      "name": "SAIPEM ENDEAVOUR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "408387000",
+      "name": "BBT-103",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466536690",
+      "name": "NSW ZIKREET",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470019000",
+      "name": "ADNOC 227",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "563033500",
+      "name": "SIRIUS SKY",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999404",
+      "name": "MURLI JI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "314001039",
+      "name": "DSM FERRO",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "314001016",
+      "name": "OCEANIC EXPLORER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999630",
+      "name": "HMO LEADER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352004909",
+      "name": "SEA SOUL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "645350000",
+      "name": "TRISTAR GLORY",
+      "type": "Tanker",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "572850220",
+      "name": "SEA FLOUNDER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "677050000",
+      "name": "KANHA JI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "341077002",
+      "name": "TREWENNA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "511101064",
+      "name": "LARISSA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "511101747",
+      "name": "YARA J",
+      "type": "Tanker",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "447180000",
+      "name": "BURGAN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "377324000",
+      "name": "PAULINE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "403518001",
+      "name": "NCC NAJEM",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422180300",
+      "name": "BARI12146",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538007322",
+      "name": "TOPAZ SVIR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "631010097",
+      "name": "BLUE SHADOW",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999519",
+      "name": "S.J. RIMA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "305255000",
+      "name": "MARALTA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538010945",
+      "name": "OCEAN LOYALTY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999774",
+      "name": "DIAKO1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "373487000",
+      "name": "HUALI",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538010763",
+      "name": "SEVA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352001108",
+      "name": "HERMES",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "463099727",
+      "name": "55965B",
+      "type": "Fishing",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "566962000",
+      "name": "MILAHA EXPLORER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636022726",
+      "name": "STEFANOS D",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "629009454",
+      "name": "WAFA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999682",
+      "name": "MARICK",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538011529",
+      "name": "MCDERMOTT DB32",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636019504",
+      "name": "LILA PIRAEUS",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538007633",
+      "name": "ALIS",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "629009302",
+      "name": "ELITE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "611000112",
+      "name": "MEDA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999533",
+      "name": "MAYA GAS 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "377517000",
+      "name": "TSC ZAAL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422156000",
+      "name": "",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "7853740",
+      "name": "SALMAN-1-99%",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422061200",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538011028",
+      "name": "BES  SINCERE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422929220",
+      "name": "ASIA 13614",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538003455",
+      "name": "PLATA GLORY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "436000019",
+      "name": "P1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "370027000",
+      "name": "ALLIANZ OPAL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "414384000",
+      "name": "TIAN SHENG 27",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "987170336",
+      "name": "PINDOS II",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "463149930",
+      "name": "",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "511101929",
+      "name": "TITAN WAVE",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470163000",
+      "name": "ADNOC 224",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422266700",
+      "name": "KOKAB2",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "563214800",
+      "name": "ASTRO ATHENA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "572638220",
+      "name": "SS NAVIGATOR",
+      "type": "Tanker",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470139000",
+      "name": "ADNOC 221",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "353849000",
+      "name": "LUCKY DRAGON",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470346000",
+      "name": "RED SEA II",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422140440",
+      "name": "KIAN54",
+      "type": "Fishing",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470838000",
+      "name": "INCHCAPE 21",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "477340400",
+      "name": "TIAN E ZUO",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "413493740",
+      "name": "HAI YANG SHI YOU 285",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636024369",
+      "name": "JIN YUAN MEN",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "255806023",
+      "name": "MONTE URBASA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "312869000",
+      "name": "HE PING ZHI LU",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636020445",
+      "name": "CHRISTIANNA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "649119000",
+      "name": "TABULA RASA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470932000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352002515",
+      "name": "YONGHENG",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "370511000",
+      "name": "ANO KATO",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "413615970",
+      "name": "ZHONG QUAN 9",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "441548000",
+      "name": "ANTWERP BRIDGE",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "249762000",
+      "name": "PEARL LIGHT",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538010875",
+      "name": "SETO ETERNITY",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375762000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422154200",
+      "name": "HAMOUNA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470316000",
+      "name": "JEWAHER 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352190000",
+      "name": "KITION M",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620270000",
+      "name": "FERAS 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999923",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466250000",
+      "name": "HALUL 61",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470988000",
+      "name": "MUTAWA 11",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376215000",
+      "name": "ALLIANZ WARRIOR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "645262000",
+      "name": "DN 78",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422561600",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "306225000",
+      "name": "PIND",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "357241000",
+      "name": "POLLUX XX",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470693000",
+      "name": "DANA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470316000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352003922",
+      "name": "ADNOC C05",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "403568000",
+      "name": "ANSAR 8",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "244640000",
+      "name": "SEA GOLF",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "236478000",
+      "name": "TELFORD 25",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "564170000",
+      "name": "BRITOIL 63",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422190200",
+      "name": "18125",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466501840",
+      "name": "GULF MIRAGE",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "372334000",
+      "name": "ALIMAS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422182400",
+      "name": "MANSOORQUIDYNIZAM",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470039000",
+      "name": "ZEHOOR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422145700",
+      "name": "10176",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466062000",
+      "name": "QITAT JARADA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470162000",
+      "name": "MARWAH 1",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "212094000",
+      "name": "RIVAL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352005467",
+      "name": "ELORA 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538006182",
+      "name": "AMBER II",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470232000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "341368002",
+      "name": "GLORY 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422250200",
+      "name": "18326",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "341317000",
+      "name": "MT ENKI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422591700",
+      "name": "13243",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470941000",
+      "name": "RAZAN 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470243000",
+      "name": "MUTAWA 105",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470011000",
+      "name": "ADNOC 226",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "574004990",
+      "name": "PTSC SAO VANG",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "441243000",
+      "name": "DS COUGAR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352801000",
+      "name": "OSHAN SUPPLIER",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "371921000",
+      "name": "MCS ALLIANZ LEVANTO",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "566682000",
+      "name": "LANPAN 26",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "563297000",
+      "name": "SWISSCO RUBY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376349000",
+      "name": "ALLIANZ CHLOE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470664000",
+      "name": "ANASTASIYA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466408000",
+      "name": "HALUL 44",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999692",
+      "name": "GENESIS ALPHA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422410012",
+      "name": "NOT DEFINED",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "419956995",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422216600",
+      "name": "YAHEYDAR",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "374641000",
+      "name": "GHAZI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538007319",
+      "name": "TOPAZ AMUR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466501640",
+      "name": "BIRD-4",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "710356",
+      "name": "HESAM FISHNET_1-99%",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352001467",
+      "name": "PVT ELENA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352002160",
+      "name": "ZAKHER VICTORY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "253422000",
+      "name": "CHARLES DARWIN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471133000",
+      "name": "MARCAP 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466585210",
+      "name": "ONE O ONE",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470433000",
+      "name": "ADNOC A03",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620800166",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422551800",
+      "name": "DAVAND-13028",
+      "type": "Fishing",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "271046993",
+      "name": "PALESTAL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422394000",
+      "name": "NOJOUM 20",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538006334",
+      "name": "TOPAZ JAFILIYA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "351356000",
+      "name": "MSC SARISKA V",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636092757",
+      "name": "SMIT LUZON",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470776000",
+      "name": "AZAH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375705000",
+      "name": "LEONIDAS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470329000",
+      "name": "ADNOC 712",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376453000",
+      "name": "SEA PRINCESS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470145000",
+      "name": "DEBRAN 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620692000",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538007324",
+      "name": "TOPAZ VOLGA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "412549038",
+      "name": "LURONGYUANYUYUN999",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "371502000",
+      "name": "SILVA",
+      "type": "Tanker",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538003467",
+      "name": "AP DRZIC",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422270800",
+      "name": "NAJIROM 9",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376065000",
+      "name": "SWISSCO SEARCHER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352006314",
+      "name": "GRETA STAR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "314571000",
+      "name": "OBE GRANDE",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "667001584",
+      "name": "GARUDA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538012177",
+      "name": "WELL SAIL",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "477732600",
+      "name": "JIN RONG",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999173",
+      "name": "ENERGY TITAN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "229706000",
+      "name": "RAHAF 1",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538011157",
+      "name": "BES SAVVY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352002653",
+      "name": "FU HUA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466578420",
+      "name": "AL SHAHEQ",
+      "type": "Fishing",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "447089000",
+      "name": "BNEIDER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "355611000",
+      "name": "LUNA II",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470251000",
+      "name": "NATHALIA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422120100",
+      "name": "AL SALAMA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "457487000",
+      "name": "XIONG HAI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422788000",
+      "name": "AFTAB112",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470009231",
+      "name": "ADNOC SR 12",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "356492000",
+      "name": "HYWT304",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "273292160",
+      "name": "LADY MARIIA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470572000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620800157",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470099000",
+      "name": "MY SENSATION",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470311000",
+      "name": "DAS-1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471020000",
+      "name": "ADNOC S02",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422011320",
+      "name": "12345",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352005616",
+      "name": "LANPAN 11",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "413172000",
+      "name": "QI LIN ZUO",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470386000",
+      "name": "EGMAIS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376608000",
+      "name": "YEVIN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "511101895",
+      "name": "GAS RGA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466501320",
+      "name": "MQ6",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470318000",
+      "name": "AL HYLEH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470051000",
+      "name": "NMS 402",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "374168000",
+      "name": "BOOMERANG",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466409000",
+      "name": "AL KHARSAAH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470076000",
+      "name": "AL LULU",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466501650",
+      "name": "BIRD-8",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538009888",
+      "name": "GENEVE",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636024676",
+      "name": "NAVE SYNERGY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636022266",
+      "name": "GMS ATRIA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466059000",
+      "name": "AL MELIHAT",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422845000",
+      "name": "RASHID2",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636022262",
+      "name": "IRIS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470917000",
+      "name": "TRISTAR SPIRIT",
+      "type": "Tanker",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "511100220",
+      "name": "AMIL 61",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999392",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470344000",
+      "name": "MEHZEM",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636024424",
+      "name": "AURORA SCORPIO",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "341064000",
+      "name": "",
+      "type": "Fishing",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422305400",
+      "name": "25282",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "373768000",
+      "name": "MITAKE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "248311000",
+      "name": "INDIGO STAR I",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352001515",
+      "name": "CLYDE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422169100",
+      "name": "MOUJE AQIANOOS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "377684000",
+      "name": "DMS KITE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422211900",
+      "name": "18199",
+      "type": "Fishing",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422000023",
+      "name": "FISHING-NET-2-EBRAHI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999112",
+      "name": "FUGRO OCEANUS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "419956027",
+      "name": "MSV AL SHA MURAD",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "377355000",
+      "name": "AUDREY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422200900",
+      "name": "BARI25240",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470290000",
+      "name": "MUTAWA 12",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "412381030",
+      "name": "SHI HAI",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470119000",
+      "name": "JOPETWIL 300",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422210400",
+      "name": "ARIYA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "563299200",
+      "name": "SPIRIT OF CHENNAI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636022462",
+      "name": "AMANI",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352898801",
+      "name": "UNISTAR",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538007868",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "565990000",
+      "name": "LANPAN 31",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422030530",
+      "name": "11493",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "355225000",
+      "name": "HEILAN SPRING",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "461000168",
+      "name": "SVITZER  PILOT 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "241380000",
+      "name": "OLYMPIC LEOPARD",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422031500",
+      "name": "FLORA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422963400",
+      "name": "MAOMING",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470589000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422609500",
+      "name": "3/13740",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352973000",
+      "name": "DCI 2",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466536980",
+      "name": "NSW HUWAILAH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422556500",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471250000",
+      "name": "JACKFISH ANN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422265900",
+      "name": "20593",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470371000",
+      "name": "RIG MAKASIB",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636093266",
+      "name": "HONG KUN MEI GUI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422167700",
+      "name": "BARI 12582",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470470000",
+      "name": "ADNOC 251",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466078000",
+      "name": "JANAN R.V",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "212685000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "419956834",
+      "name": "MSV AL RASHID",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471122000",
+      "name": "AL MUTWAKAL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470959000",
+      "name": "MARAWWAH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "414506000",
+      "name": "SHUO LONG 618",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "341771001",
+      "name": "DANIELA",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470823000",
+      "name": "ATLANTIS 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470658000",
+      "name": "ADNOC S07",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470717000",
+      "name": "ANAD 2",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538005335",
+      "name": "TOPAZ SOPHIE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376068000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470850500",
+      "name": "LMS21",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470997000",
+      "name": "CODE 8",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "351227000",
+      "name": "NEPTUNE MARINER I",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "377716000",
+      "name": "SWISSCO SWIFT",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422000000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352006215",
+      "name": "PASCO DUJA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "511100225",
+      "name": "ALLIANZ POWER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375748000",
+      "name": "OFCO EAGLE 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "341004002",
+      "name": "SAFEENAT 07",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "563257100",
+      "name": "NAVIG8 MACALLISTER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "356157000",
+      "name": "HERO",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470382000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "244870718",
+      "name": "ZWERVER II",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375217000",
+      "name": "ZAKHER AMAZON",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470990000",
+      "name": "TRISTAR ECO VOYAGER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "525016456",
+      "name": "ERA MARITIM",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466537210",
+      "name": "SORA4",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "354168000",
+      "name": "MERCURY",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470143000",
+      "name": "AL SADR-I",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470246000",
+      "name": "BUSHRA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "414293985",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "355372000",
+      "name": "CARLYNA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470074000",
+      "name": "KENOOZ",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "477149500",
+      "name": "SEA LION",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375491000",
+      "name": "QMS AL SHAHAMA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470777000",
+      "name": "LCT SAMHA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375221000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422603600",
+      "name": "SPEHR",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470071000",
+      "name": "ADNOC M06",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466254000",
+      "name": "SEA GALAXY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "417185971",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "253329000",
+      "name": "BOURBON LIBERTY 306",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352002350",
+      "name": "D QUEENS",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538010826",
+      "name": "PINNACLE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "408573000",
+      "name": "SEA DOLPHIN  1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470168000",
+      "name": "MARCAP 202",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "377633000",
+      "name": "ZAKHER KING",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "533132902",
+      "name": "KEYFIELD AULIA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "577525000",
+      "name": "VORTEX EVOLUTION",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "377126000",
+      "name": "STANFORD RHINE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470237000",
+      "name": "SHAH-1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471074304",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "235073785",
+      "name": "CYBI ISLAND",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "253181000",
+      "name": "VICTORIA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538010830",
+      "name": "CLEAN IMPERIAL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470694000",
+      "name": "SEA GLORY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422147100",
+      "name": "MOSTAFA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422814000",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "319296200",
+      "name": "MAJDOULINE",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471253000",
+      "name": "ADNOC S01",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352973000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422565400",
+      "name": "13118",
+      "type": "Fishing",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470111000",
+      "name": "MURBAN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "416481000",
+      "name": "EVER LIVEN",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466111000",
+      "name": "SAILAIN II",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "463000291",
+      "name": "",
+      "type": "Fishing",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376435000",
+      "name": "QMS CARDINAL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "511100554",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471375000",
+      "name": "LINA 2",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "232054911",
+      "name": "LADY VIKTORIA",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999313",
+      "name": "BLUE ROSE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470787700",
+      "name": "EMBARKA 10",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352001790",
+      "name": "ABC TRADER",
+      "type": "Tanker",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "477712900",
+      "name": "NEW PEACE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "477237700",
+      "name": "XIN HAI TONG 23",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352001833",
+      "name": "STANFORD  ALPHA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "244009000",
+      "name": "COASTAL RAMBLER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "432278000",
+      "name": "LNG JAMAL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470184000",
+      "name": "AD ASTRA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376267000",
+      "name": "STANFORD BREAM",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470603000",
+      "name": "SHARAF EMERALD",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "341994000",
+      "name": "SEA SCARF 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466009000",
+      "name": "SIDRA AL KHOR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466435000",
+      "name": "MQ 4",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "564158000",
+      "name": "BRITOIL 60",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470960000",
+      "name": "SUBHAN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "371184000",
+      "name": "SAMSON SUPPORTER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "319177400",
+      "name": "BEHIKE",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466503510",
+      "name": "BARIQ ALKHAIR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422127400",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "248330000",
+      "name": "SOLANA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471023000",
+      "name": "RODINIA 2",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "341524000",
+      "name": "MELANIE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470046000",
+      "name": "AL BAHAR 7",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "564162000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538011438",
+      "name": "SAFEEN KATE",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "406976304",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471057000",
+      "name": "TOYOOF",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352003183",
+      "name": "UNION RICH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471019000",
+      "name": "ADNOC S04",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471113000",
+      "name": "AL JURF",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "256082000",
+      "name": "GHAT",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470920000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636018615",
+      "name": "ADMARINE 656",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422038600",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470521000",
+      "name": "SEA STALLION",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "357034000",
+      "name": "MATILDA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470265000",
+      "name": "MARIYAM 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "355223000",
+      "name": "JASMINA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470089000",
+      "name": "HOREYEH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470472000",
+      "name": "HALIBUT  ANN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "408543000",
+      "name": "CELINA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "42278000",
+      "name": "AFTAB 111",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470331000",
+      "name": "AL SAFEER 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538071568",
+      "name": "SERENITY MRF",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "511100185",
+      "name": "AMAL II",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471206000",
+      "name": "BU TINAH II",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "246982000",
+      "name": "SEA EIDUM",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470227000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636022922",
+      "name": "PERRO NEGRO 13",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470834000",
+      "name": "KANOO 40",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "741457780",
+      "name": "SOHAR PILOT 2",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470229000",
+      "name": "DEEP BREATH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538002879",
+      "name": "LIAKI FREEDOM",
+      "type": "Tanker",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "419956726",
+      "name": "NOOR E NABUWAT",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "372414000",
+      "name": "ALEJANDRINA 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999604",
+      "name": "AL YAHYA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352002606",
+      "name": "VALANO",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352005181",
+      "name": "ALLIANZ ONYX",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "325366000",
+      "name": "AL SAFA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "311605000",
+      "name": "FUWAIRIT",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "649229000",
+      "name": "MEGAN",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "408266000",
+      "name": "SAFRA-1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422496100",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422610300",
+      "name": "BARI-13338",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "354006000",
+      "name": "LATONA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470002366",
+      "name": "PRINCESS MARYA",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "632001153",
+      "name": "RYUUKAISEN KAORU",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "314001040",
+      "name": "MERRY M",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422800629",
+      "name": "MOHSINE_1-94%",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466404000",
+      "name": "HALUL 53",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470149000",
+      "name": "GADEER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538004578",
+      "name": "IZKI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "372151000",
+      "name": "NAVE SEXTANS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620919000",
+      "name": "MAKRAN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376145000",
+      "name": "ALLIANZ LIBERTY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466501630",
+      "name": "BIRD-7",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422040500",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636025085",
+      "name": "SALFORD 20",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422430300",
+      "name": "BARI-12754",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "461000057",
+      "name": "SVITZER SAHAM",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375763000",
+      "name": "QMS HURACAN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470613000",
+      "name": "CELEBRATION",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470502000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "408529000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471281000",
+      "name": "X 23",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636022907",
+      "name": "GMS APOLLO",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470891111",
+      "name": "SHARAF JADE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375606000",
+      "name": "STANFORD EAGLE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470053000",
+      "name": "AL MINSAF",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376781000",
+      "name": "P&O AL SABA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422247100",
+      "name": "AL_REZA_11811",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470727000",
+      "name": "ADNOC 252",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636097063",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466157000",
+      "name": "HALUL 52",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636013348",
+      "name": "SERENGETI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352006018",
+      "name": "HMM NARAE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "357343000",
+      "name": "VISTA III",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "371569000",
+      "name": "LARA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "371451760",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470622000",
+      "name": "ALJABER 51",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422033500",
+      "name": "GOHAR DARYA 2",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422021000",
+      "name": "",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352002162",
+      "name": "ZAKHER OCEAN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470115000",
+      "name": "AL MARIA 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470533000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376823000",
+      "name": "OCEAN TRANSPORTER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422031500",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470146000",
+      "name": "KESSAB1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422018500",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "355958000",
+      "name": "SIENE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "377252000",
+      "name": "QMS MARIMBA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422903900",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "370072000",
+      "name": "HYWT306",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466573900",
+      "name": "RL 32",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352001346",
+      "name": "BLUE NAVIGATOR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352006197",
+      "name": "HEA AL MAQAM",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470806000",
+      "name": "AL YASSAT",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636019743",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "319269900",
+      "name": "TIBERIAS",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470213600",
+      "name": "AMIRA 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471140000",
+      "name": "ELEKTRA-II",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538005883",
+      "name": "TOPAZ MEGAN",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "408625000",
+      "name": "DONA V",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471015000",
+      "name": "ADOC-1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "314782000",
+      "name": "PERA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470013000",
+      "name": "GROUPER ANN 2",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "246808000",
+      "name": "SEA OLOUS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "447158000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "370365000",
+      "name": "CORA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "677086300",
+      "name": "SOFIA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636017193",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "406965304",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375862000",
+      "name": "GLOBAL HAWK",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470482000",
+      "name": "MUTAWA 102",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422036300",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "375762000",
+      "name": "STANFORD CARACARA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466323000",
+      "name": "HALUL 100",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470215000",
+      "name": "GAC SOBAITI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466087000",
+      "name": "FOG 12",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "408201074",
+      "name": "SEA PIONEER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "677023900",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466561970",
+      "name": "",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "354447000",
+      "name": "ICE QUEEN",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466079000",
+      "name": "HALUL     51",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470459200",
+      "name": "AL SADIQ 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471380000",
+      "name": "EL MUNDO 2",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636014089",
+      "name": "VIRGO",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466501670",
+      "name": "BIRD 6",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538008215",
+      "name": "OLYMPIC LIFE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538002388",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "248476000",
+      "name": "DENSA LION",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422000209",
+      "name": "HOMYON-299%",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "355478000",
+      "name": "WELL TARGET 2",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470900000",
+      "name": "DAYYINAH STAR 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470415000",
+      "name": "ADNOC 711",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422932800",
+      "name": "MAIIAHI5734",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "374960000",
+      "name": "NESREENA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "245810000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "246885000",
+      "name": "COASTAL VOYAGER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376754000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "341987001",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471193000",
+      "name": "P&O ENERGY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470317000",
+      "name": "ADNOC 714",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470659200",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470174500",
+      "name": "ANFOOZ",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471089000",
+      "name": "ADNOC A10",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
     },
     {
       "mmsi": "255806125",
-      "name": null,
+      "name": "AS CLEMENTINA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "457669000",
+      "name": "NEEMO",
       "type": "Other",
       "lat": null,
       "lng": null,
       "seen": null,
       "direction": null,
       "zone": null,
-      "source": "ais"
+      "source": "gfw"
+    },
+    {
+      "mmsi": "413357420",
+      "name": "CHANGHANG CHENGGONG",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "671407100",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "645248000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "572703210",
+      "name": "RAWABI 28",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538003951",
+      "name": "PLATA SOUTH",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470373000",
+      "name": "AL DANA 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471058000",
+      "name": "AL DHAFRA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470857000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "403757070",
+      "name": "JANA 42",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "776025700",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470810000",
+      "name": "AMAL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538011653",
+      "name": "AKKADIA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470543152",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "629009370",
+      "name": "FELIX",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "354039000",
+      "name": "NETRA",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466010000",
+      "name": "HALUL41",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "408522000",
+      "name": "SVITZER TYLOS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "563240300",
+      "name": "NISA NAREE",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "477113200",
+      "name": "HIMALIA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "374802000",
+      "name": "LOUISE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466501420",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636020370",
+      "name": "COBALT NOVA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466501660",
+      "name": "BIRD-5",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470575000",
+      "name": "AL MUKHAIBE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "629009392",
+      "name": "ELVA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538005379",
+      "name": "TOPAZ FAYE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422000025",
+      "name": "FISHING-NET-4-EBRAHI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470459000",
+      "name": "FNSA 5",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "314658000",
+      "name": "BRAVE",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422046100",
+      "name": "",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "235086876",
+      "name": "MY BABYLON",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422648000",
+      "name": "ARVAND110",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470101000",
+      "name": "AL JUBAIL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "525015201",
+      "name": "MAR DE SARGAZOS",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620344207",
+      "name": "MAZDA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538011559",
+      "name": "AICC FENGHUANG",
+      "type": "Cargo",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466573830",
+      "name": "LAFFAN",
+      "type": "Passenger",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471165000",
+      "name": "SBS POWER 2",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "376039000",
+      "name": "ZAKHER STAR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "377709000",
+      "name": "OCEAN CLEVER",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "352004089",
+      "name": "AQUA 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "422464600",
+      "name": "AHMAD 12787",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "645765000",
+      "name": "ALEXANDER V HUMBOLDT",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "466536750",
+      "name": "MHAB",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636019929",
+      "name": "IMPERIAL",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470771000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "538005940",
+      "name": "TOPAZ ISRA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636022731",
+      "name": "GMS CONTINUITY",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "471286000",
+      "name": "M -17",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "711111111",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "636025084",
+      "name": "VICTORIA 1",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "419956339",
+      "name": "MSV FAIZE GOUSHENOOR",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470210576",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470029000",
+      "name": "ADNOC  229",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "470984000",
+      "name": "RAMASI",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "244811000",
+      "name": "",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
+    },
+    {
+      "mmsi": "620999702",
+      "name": "AL KHWAJA",
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "seen": null,
+      "direction": null,
+      "zone": null,
+      "source": "gfw"
     }
   ],
   "crossings": [],
   "stats": {
-    "total_vessels": 5262,
+    "total_vessels": 5939,
     "total_crossings": 0,
     "vessel_types": {
-      "Other": 3571,
-      "Cargo": 1121,
-      "Fishing": 328,
-      "Tanker": 20,
-      "Passenger": 222
+      "Other": 4114,
+      "Cargo": 1202,
+      "Fishing": 336,
+      "Tanker": 28,
+      "Passenger": 259
     }
   }
 }
