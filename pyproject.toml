@@ -10,7 +10,7 @@ python = ">=3.12"
 psycopg2-binary = "^2.9"
 pyyaml = "^6.0"
 websockets = "^16.0"
-requests = "^2.31"
+requests = "^2.33"
 
 [tool.poetry.scripts]
 worker = "worker.persistent_workers:main"
